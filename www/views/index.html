@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Require Demo Project">
+        <meta name="author" content="gokulnathpalanivel@gmail.com" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="../res/css/index.css">
+    </head>
+    <body>
+
+        <div class="container-fluid">
+            <h1>Data Dashboard</h1>
+            <b>Some interesting facts</b> 
+        </div>
+        
+        <div class="row">
+            <!--  Highcharts section-->
+            <div class="col-sm-6">
+                <div id="dataChart" style="width:100%; height:400px;"></div>
+            </div>
+            
+            <!--  Summary section-->
+            <div class="col-sm-6">
+                <div class="smry">
+                    <h2 class="ttl">Mobile Now Accounts for 50.3% of All Ecommerce Traffic </h2>
+                    <b>Year 2015 - Online in Mobile Trend </b>
+                    
+                    <div>Country and time spent online in Mobile </div>
+                    <div class="ctry"></div>
+                    <div class="hrs"></div>
+                    <p>A poorly designed site that doesn’t provide a compelling, appropriate mobile experience results in higher rates of abandoned online shopping carts. Jumio reports that over 2/3 of mobile baskets are abandoned due to a poor checkout experience. Retailers should take heed, as this is a compelling case to take a critical look at your mobile experience.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <!--  Likes/Dislikes section -->
+            <div class="col-sm-12 stat">
+                <div>
+                    <div class="totalLk">0</div>
+                    <button type="button" class="like">Like</button>
+                </div>
+                <div>
+                    <div class="totalDlk">0</div>
+                    <button type="button" class="disLike">Dislike</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    
+    <script data-main="../res/js/common" src="../res/js/thirdparty/require.js"></script>
+  
+</html>
